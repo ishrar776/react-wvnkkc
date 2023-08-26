@@ -11,7 +11,7 @@ export default function App() {
       <p>
         <button onClick={addToCart1}>AddToCart</button>
       </p>
-      {!count == 0 && <p>your count is {count}</p>}
+      {!count === 0 && <p>your count is {count}</p>}
     </div>
   );
 }
